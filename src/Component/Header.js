@@ -19,7 +19,7 @@ const Header = () => {
             />
 
    <div className=" rounded-md p-2 overflow-hidden">
-            <button className="bg-teal-700 text-white h-12 md:h-16 px-4 hover:bg-teal-800 transition">
+            <button className="bg-teal-700 text-white h-12 md:h-16 rounded-md px-4 hover:bg-teal-800 transition">
               Search Domain
             </button>
           </div>

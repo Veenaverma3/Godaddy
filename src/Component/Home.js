@@ -11,6 +11,7 @@ import Main4 from './Main4'
 import Main5 from './Main5'
 import Askedques from './Askedques'
 import Footer1 from './Footer1'
+import Footer from "./Footer"
 import ContactChiclet from './ContactChiclet'
 
 const Home = () => {
@@ -28,8 +29,8 @@ const Home = () => {
       <Main5/>
       <Askedques/>
       <Footer1/>
-      <footer/>
-      <ContactChiclet/>
+      <Footer/>
+       <ContactChiclet/>
      </>
   )
 }
