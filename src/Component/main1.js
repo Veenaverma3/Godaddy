@@ -1,7 +1,7 @@
  import React, { useState } from "react";
-import img from "../Component/Image/b1.webp";
-import img2 from "../Component/Image/hpimg.avif";
-import img3 from "../Component/Image/img22.avif";
+import img from "../Component/Image/h1.webp";
+import img2 from "../Component/Image/h2.webp";
+import img3 from "../Component/Image/h4.webp";
 
 const Main1 = () => {
   const [hovered, setHovered] = useState(null);
@@ -17,18 +17,18 @@ const Main1 = () => {
   };
 
   return (
-    <div className="w-full px-4 sm:px-6 lg:px-12 py-12">
+    <div className=" px-4 mt-14 sm:px-6 lg:px-12 py-12">
       {/* Main Heading */}
-      <h2 className="text-xl sm:text-3xl md:text-4xl lg:text-5xl font-semibold font-serif text-center mb-8 leading-snug">
+      <h2 className="text-xl sm:text-3xl md:text-4xl lg:text-5xl font-semibold font-serif text-center mb-8 leading-relaxed">
         Start local, work global, and scale with Microsoft 365
       </h2>
 
       {/* Image Section */}
-     <div className="flex justify-center h-auto mt-10 lg:h-[500px] mb-10 ">
+     <div className="flex justify-center h-auto mt-10 lg:h-[500px] mb-8  ">
   <img
     src={hovered ? images[hovered] : defaultImg}
     alt="Microsoft 365"
-    className="rounded-lg shadow-lg w-full sm:w-10/12 md:w-9/12 lg:w-[1199px] h-auto max-h-[500px] object-contain transition-transform duration-500 ease-in-out hover:scale-105 "
+    className="rounded-lg shadow-lg w-full sm:w-10/12 md:w-9/12 lg:w-full h-auto max-h-[500px] object-cover transition-transform duration-500 ease-in-out hover:scale-105 "
   />
 </div>
 
