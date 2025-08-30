@@ -13,6 +13,7 @@ import Main2 from "./Component/Main2";
 import Main3 from "./Component/Main3";
 import Main4 from "./Component/Main4";
 import Main5 from "./Component/Main5";
+import Sign from "./Component/Sign";
  
 function App() {
   return (
@@ -34,7 +35,7 @@ function App() {
 
         {/* Routes */}
         <Routes>
-          <Route path="/" element={<Hero />} />
+          <Route path="sign" element={<Sign />} />
         </Routes>
       </div>
     </Router>
